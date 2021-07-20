@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EXAMEN SEGUNDO PARCIAL</string>
+    <string name="bienvenido">BIENVENIDO A</string>
+    <string name="btninicio">IR AL MENÚ </string>
+    <string name="txtingresesusdatos">INGRESE SUS DATOS</string>
+    <string name="hintnombre">INGRESE SU NOMBRE</string>
+    <string name="hintedad">INGRESE SU EDAD</string>
+    <string name="hintgenero">INGRESE SU GENERO</string>
+    <string name="btnguardar">GUARDAR</string>
+    <string name="txtmenu">NETFLIX | MENÚ</string>
+    <string name="txtcategorias">CATEGORÍAS</string>
+    <string name="btncaricatura">CARICATURA</string>
+    <string name="btnterror">TERROR</string>
+    <string name="btnromance">ROMANCE</string>
+    <string name="txtfoto">NETFLIX | TOMAR FOTO</string>
+    <string name="btnfoto">ACEPTAR</string>
+    <string name="btncancelar">CANCELAR</string>
+    <string name="txtreproductor">NETFLIX | REPRODUCTOR</string>
+    <string name="txtnombre">NOMBRE: </string>
+    <string name="txtedad">EDAD: </string>
+    <string name="txtgenero">GÉNERO: </string>
+    <string name="txtcategoria">CATEGORÍA:  </string>
+    <string name="txttitulopeli">TITULO </string>
+
+
+
+
+
+
+
+
+</resources>

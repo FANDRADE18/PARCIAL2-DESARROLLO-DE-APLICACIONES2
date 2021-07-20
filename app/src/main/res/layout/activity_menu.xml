@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323131"
+    tools:context=".Menu_Activity">
+
+    <Button
+        android:id="@+id/btnromance"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:text="@string/btnromance"
+        android:textColor="#D50D18"
+        android:visibility="invisible"
+        app:iconGravity="end"
+        app:iconSize="40dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnterror" />
+
+    <ImageView
+        android:id="@+id/imagevmenu"
+        android:layout_width="96dp"
+        android:layout_height="63dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/txtmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/anton"
+        android:text="@string/txtmenu"
+        android:textAlignment="center"
+        android:textColor="#D50D18"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="96dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icononetflix" />
+
+    <Button
+        android:id="@+id/btncaricatura"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:enabled="true"
+        android:foregroundGravity="left"
+        android:text="@string/btncaricatura"
+        android:textColor="#D50D18"
+        android:visibility="invisible"
+        app:iconGravity="end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcategorias" />
+
+    <Button
+        android:id="@+id/btnterror"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:enabled="true"
+        android:text="@string/btnterror"
+        android:textColor="#D50D18"
+        android:visibility="invisible"
+        app:iconGravity="end"
+        app:iconSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncaricatura" />
+
+    <TextView
+        android:id="@+id/txtcategorias"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:background="#D50D18"
+        android:enabled="true"
+        android:text="@string/txtcategorias"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagevmenu" />
+
+    <ImageView
+        android:id="@+id/imagcaricatura"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btncaricatura"
+        app:layout_constraintTop_toTopOf="@+id/btncaricatura"
+        app:srcCompat="@drawable/caricaturaico" />
+
+    <ImageView
+        android:id="@+id/imagevterror"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnterror"
+        app:layout_constraintTop_toBottomOf="@+id/imagcaricatura"
+        app:srcCompat="@drawable/terrorico" />
+
+    <ImageView
+        android:id="@+id/imagevromance"
+        android:layout_width="32dp"
+        android:layout_height="38dp"
+        android:background="#FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnromance"
+        app:layout_constraintTop_toBottomOf="@+id/imagevterror"
+        app:srcCompat="@drawable/romanceico" />
+
+    <TextView
+        android:id="@+id/textviewhola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toEndOf="@+id/imagevmenu"
+        app:layout_constraintTop_toBottomOf="@+id/txtmenu" />
+
+    <TextView
+        android:id="@+id/textviewhola6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="las categorías disponibles son :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toEndOf="@+id/imagevmenu"
+        app:layout_constraintTop_toBottomOf="@+id/textviewhola3" />
+
+    <TextView
+        android:id="@+id/textviewhola3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="de acuerdo a tu edad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toEndOf="@+id/imagevmenu"
+        app:layout_constraintTop_toBottomOf="@+id/textviewhola" />
+
+    <TextView
+        android:id="@+id/txtnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textviewhola"
+        app:layout_constraintTop_toBottomOf="@+id/txtmenu" />
+
+    <TextView
+        android:id="@+id/txtedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="93dp"
+        android:text="15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textviewhola3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewhola5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="93dp"
+        android:text="años"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtedad"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
